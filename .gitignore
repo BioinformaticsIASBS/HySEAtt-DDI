@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# TensorFlow/Keras output models and training results
+*.h5
+*.keras
+AE_CNN_Att_MLP_Hybrid_results_1000_sequential/
+
+# Large input data / licensed data
+tanimoto_sim.txt
+filtered_labels.txt
+filtered_indices.txt
+
+# Logs
+*.log

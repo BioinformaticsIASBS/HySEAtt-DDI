@@ -155,9 +155,7 @@ It standardizes drug features and trains the autoencoder before the pair-level s
 
 For a strict unseen-drug evaluation, use a drug-disjoint split and fit the scaler and autoencoder using only the training drugs within each fold. Also ensure that reversed pairs such as `(i, j)` and `(j, i)` never appear in different partitions.
 
-## Data and licensing
 
-Do not upload raw DrugBank data or derivative records unless your DrugBank licence explicitly allows redistribution. The repository should contain code, data-processing scripts, permitted identifiers, and reproducible split files.
 
 ## Citation
 
@@ -171,12 +169,3 @@ Do not upload raw DrugBank data or derivative records unless your DrugBank licen
 }
 ```
 
-Update the DOI, volume, issue, and pages after publication.
-
-## Licence
-
-Add an explicit open-source licence before making the repository public. MIT or Apache-2.0 are common choices for academic code repositories.
-
-## Contact
-
-For questions about the implementation or the associated manuscript, contact the corresponding author listed in the paper.
